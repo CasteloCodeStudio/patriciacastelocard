@@ -1,0 +1,298 @@
+*{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+h1{
+flex-direction: column;
+line-height: 27px;
+font-weight: 800;
+margin-top:7px ;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #c19c03;
+}
+
+.top-name{
+    display: flex;
+}
+
+#borboleta{
+    margin: 3px;
+}
+
+#avon{
+    border-radius: 20px;
+    margin: 10px;
+    background: #df1a74;
+    display: flex;
+    justify-content: space-between;
+}
+
+#avon-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#button-avon{
+    background: white;
+    border-color: white;
+    border-radius: 20px;
+    border-style:solid;
+    color: #df1a74;
+    width: 130px;
+    height: 40px;
+    font-size: medium;
+    cursor: pointer;
+    margin: 60px;
+}
+
+#natura{
+    border-radius: 20px;
+    margin: 10px ;
+    margin-top: 0;
+    background:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#natura-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 70px;
+}
+
+#button-natura{
+    background: #f48120;
+    border-color: white;
+    border-radius: 20px;
+    border-style:solid;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: medium;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+#logo-natura{
+    margin-left: 115px;
+
+}
+
+
+#valvit{
+    border-radius: 20px;
+    margin: 10px ;
+    margin-top: 0;
+    background:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#valvit-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 70px;
+}
+
+#button-valvit{
+    background: #c19c03;
+    border-color: black;
+    border-radius: 20px;
+    border-style:solid;
+    color: white;
+    width: 130px;
+    height: 40px;
+    font-size: medium;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+#logo-valvit{
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    background-color: black;
+    padding: 30px;
+}
+
+#social-page{
+    display: flex;
+    align-items: center;
+}
+
+#instagram-media{
+
+    background-color: #df1a74;
+    border: #df1a74;
+    border-style: solid;
+    margin-left: 20px;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+#whatsapp-media{
+
+    background-color: green;
+    border: transparent;
+    border-style: solid;
+    margin-left: 20px;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+#instagram-media:hover{
+    border: white;
+}
+
+#whatsapp-media:hover{
+    border: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: #c19c03;
+}
+
+#maded{
+    bottom: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    justify-content: center;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;              
+    }
+
+    body::-webkit-scrollbar-track {
+    background: black;     
+    }
+
+    body::-webkit-scrollbar-thumb {
+    background-color: #c19c03;   
+    border-radius: 20px;       
+    }
+
+@media screen and (max-width: 660px){
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #avon{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #natura{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #valvit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #logo-natura{
+        display: flex;
+        margin-left:0;
+    }
+
+    #logo-valvit{
+        margin-left: 0;
+    }
+
+    #logo-avonn{
+        margin-left: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contato{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #social-page{
+        margin-bottom: 40px;
+    }
+}
