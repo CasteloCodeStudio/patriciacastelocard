@@ -244,6 +244,12 @@ body::-webkit-scrollbar {
     border-radius: 20px;       
     }
 
+    #logo-avonn{
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+
 @media screen and (max-width: 660px){
     
     header{
@@ -251,6 +257,8 @@ body::-webkit-scrollbar {
         align-items: center;
         justify-content: center;
     }
+
+
 
     #avon{
         justify-content: center;
@@ -281,7 +289,6 @@ body::-webkit-scrollbar {
     }
 
     #logo-avonn{
-        margin-left: 35px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -295,4 +302,14 @@ body::-webkit-scrollbar {
     #social-page{
         margin-bottom: 40px;
     }
+
+li{
+    margin: 0;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
 }
