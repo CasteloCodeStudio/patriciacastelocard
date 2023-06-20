@@ -1,3 +1,6 @@
 # View
-![Captura de tela 2023-06-18 210419](https://github.com/CasteloCodeStudio/patriciacastelocard/assets/131544149/e728f51b-a9fa-455c-9b40-16ddacf63015)
-![Captura de tela 2023-06-18 210432](https://github.com/CasteloCodeStudio/patriciacastelocard/assets/131544149/3e6c333f-034b-45f6-8a03-2a187eb57cb8)
+## Desktop
+![Captura de tela 2023-06-19 213427](https://github.com/CasteloCodeStudio/patriciacastelocard/assets/131544149/9a5428f9-aaa6-42d5-ac10-63528d1b783e)
+
+## Mobile
+![mobile](https://github.com/CasteloCodeStudio/patriciacastelocard/assets/131544149/031fb995-388c-4a42-bd90-6cf026478ca5)
