@@ -1,11 +1,13 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+*{
+    transition: 0.5s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
 header{
-    padding: 20px;
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -15,13 +17,20 @@ header{
     z-index: 100;
     position: sticky;
     top: 0;
+    width: 100%;
 }
 
 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-family: 'Montserrat', sans-serif;
 flex-direction: column;
-line-height: 27px;
+line-height: 24px;
 font-weight: 800;
+font-size:  30px;
 margin-top:7px ;
+text-transform: uppercase;
 }
 
 ul{
@@ -32,8 +41,8 @@ li{
     list-style: none;
     margin-left: 60px;
     font-size: large;
-    text-transform: uppercase;
-    font-weight: 400;
+    
+    font-weight: 500;
     transition: 0.5s;
 }
 
@@ -46,16 +55,24 @@ li:hover{
     display: flex;
 }
 
-#borboleta{
-    margin: 3px;
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#d0dd20, #fbb040);
 }
 
 #avon{
     border-radius: 20px;
-    margin: 10px;
+    margin: 40px;
     background: #df1a74;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 2px 10px 2px black;
+    width: 60%;
+
 }
 
 #avon-all{
@@ -69,23 +86,28 @@ li:hover{
 #button-avon{
     background: white;
     border-color: white;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
     border-style:solid;
     color: #df1a74;
     width: 130px;
     height: 40px;
     font-size: medium;
     cursor: pointer;
-    margin: 60px;
+    margin-right: 50px;
+    margin-bottom: 5px;
 }
 
 #natura{
     border-radius: 20px;
-    margin: 10px ;
+    margin: 40px ;
     margin-top: 0;
     background:white;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 2px 10px 2px black;
+    width: 60%;
 }
 
 #natura-all{
@@ -100,7 +122,9 @@ li:hover{
 #button-natura{
     background: #f48120;
     border-color: white;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
     border-style:solid;
     color: white;
     width: 130px;
@@ -118,11 +142,13 @@ li:hover{
 
 #valvit{
     border-radius: 20px;
-    margin: 10px ;
+    margin: 40px ;
     margin-top: 0;
     background:black;
     display: flex;
     justify-content: space-between;
+    width: 60%;
+    box-shadow: 0px 2px 10px 2px black;
 }
 
 #valvit-all{
@@ -137,7 +163,9 @@ li:hover{
 #button-valvit{
     background: #c19c03;
     border-color: black;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
     border-style:solid;
     color: white;
     width: 130px;
@@ -156,15 +184,19 @@ li:hover{
 #contato{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 60px;
-    background-color: black;
-    padding: 30px;
+
 }
 
 #social-page{
     display: flex;
     align-items: center;
+    background-color: black;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px black;
 }
 
 #instagram-media{
@@ -175,7 +207,9 @@ li:hover{
     margin-left: 20px;
     width: 110px;
     height: 40px;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -191,7 +225,9 @@ li:hover{
     margin-left: 20px;
     width: 110px;
     height: 40px;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -227,8 +263,8 @@ a:hover{
     display: flex;
     align-items: center;
     color: white;
-    background-color: black;
     justify-content: center;
+    
 }
 
 body::-webkit-scrollbar {
@@ -263,6 +299,7 @@ body::-webkit-scrollbar {
     #avon{
         justify-content: center;
         flex-direction: column;
+        height: 400px;
     }
 
     #natura{
@@ -270,6 +307,7 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        height: 400px;
     }
 
     #valvit{
@@ -277,6 +315,7 @@ body::-webkit-scrollbar {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        height: 400px;
     }
 
     #logo-natura{
@@ -286,12 +325,29 @@ body::-webkit-scrollbar {
 
     #logo-valvit{
         margin-left: 0;
+        width: 200px;
+        height: 80px;
     }
 
     #logo-avonn{
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 190px;
+        height: 120px;
+        padding-left: 10%;
+        padding-bottom: 80px;
+
+    }
+
+    #button-avon{
+        margin-right: 0;
+        border: 10px;
+    }
+
+    #button-natura{
+        border: 10px;
+        margin: 2px;
     }
 
     #contato{
@@ -311,5 +367,9 @@ li{
 ul{
     display: flex;
     justify-content: space-around;
+}
+
+header{
+height: 90px;
 }
 }
